@@ -1,0 +1,53 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Farhan Ahmed",
+      "age": 22,
+      "major": "Computer Science and Engineering",
+      "university": "Bangladesh University of Engineering and Technology"
+    },
+    {
+      "id": 2,
+      "name": "Ayesha Khatun",
+      "age": 20,
+      "major": "Economics",
+      "university": "University of Dhaka"
+    },
+    {
+      "id": 3,
+      "name": "Rakib Hasan",
+      "age": 23,
+      "major": "Electrical and Electronic Engineering",
+      "university": "Khulna University of Engineering & Technology"
+    },
+    {
+      "id": 4,
+      "name": "Nusrat Jahan",
+      "age": 21,
+      "major": "Pharmacy",
+      "university": "University of Rajshahi"
+    },
+    {
+      "id": 5,
+      "name": "Imran Hossain",
+      "age": 24,
+      "major": "Business Administration",
+      "university": "Jahangirnagar University"
+    },
+    {
+      "id": 6,
+      "name": "Sharmeen Akhtar",
+      "age": 22,
+      "major": "Environmental Science",
+      "university": "Jagannath University"
+    },
+    {
+      "id": 7,
+      "name": "Tasnina Tabassum",
+      "age": 20,
+      "major": "Computer Science and Engineering",
+      "university": "BRAC University"
+    }
+  ]
+}
