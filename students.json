@@ -1,44 +1,90 @@
 {
-  "1": {
+  "S001": {
     "name": "Farhan Ahmed",
     "age": 22,
     "major": "Computer Science and Engineering",
-    "university": "Bangladesh University of Engineering and Technology"
+    "university": "Bangladesh University of Engineering and Technology",
+    "height": "1.73",
+    "weight": "68 kg",
+    "gender": "Male",
+    "bmi": 22.86,
+    "verdict": "Normal"
   },
-  "2": {
+  "S002": {
     "name": "Ayesha Khatun",
     "age": 20,
     "major": "Economics",
-    "university": "University of Dhaka"
+    "university": "University of Dhaka",
+    "height": "1.68",
+    "weight": "45 kg",
+    "gender": "Female",
+    "bmi": 17.95,
+    "verdict": "Underweight"
   },
-  "3": {
+  "S003": {
     "name": "Rakib Hasan",
     "age": 23,
     "major": "Electrical and Electronic Engineering",
-    "university": "Khulna University of Engineering & Technology"
+    "university": "Khulna University of Engineering & Technology",
+    "height": "1.73",
+    "weight": "85 kg",
+    "gender": "Male",
+    "bmi": 28.57,
+    "verdict": "Overweight"
   },
-  "4": {
+  "S004": {
     "name": "Nusrat Jahan",
     "age": 21,
     "major": "Pharmacy",
-    "university": "University of Rajshahi"
+    "university": "University of Rajshahi",
+    "height": "1.60",
+    "weight": "52 kg",
+    "gender": "Female",
+    "bmi": 20.33,
+    "verdict": "Normal"
   },
-  "5": {
+  "S005": {
     "name": "Imran Hossain",
     "age": 24,
     "major": "Business Administration",
-    "university": "Jahangirnagar University"
+    "university": "Jahangirnagar University",
+    "height": "1.78",
+    "weight": "95 kg",
+    "gender": "Male",
+    "bmi": 30.12,
+    "verdict": "Obese"
   },
-  "6": {
+  "S006": {
     "name": "Sharmeen Akhtar",
     "age": 22,
     "major": "Environmental Science",
-    "university": "Jagannath University"
+    "university": "Jagannath University",
+    "height": "1.70",
+    "weight": "44 kg",
+    "gender": "Female",
+    "bmi": 17.31,
+    "verdict": "Underweight"
   },
-  "7": {
+  "S007": {
     "name": "Tasnina Tabassum",
     "age": 20,
     "major": "Computer Science and Engineering",
-    "university": "BRAC University"
+    "university": "BRAC University",
+    "height": "1.63",
+    "weight": "78 kg",
+    "gender": "Female",
+    "bmi": 29.61,
+    "verdict": "Overweight"
+  },
+  "S008": {
+    "name": "Debjoty Mitra",
+    "age": 24,
+    "major": "Computer Science",
+    "university": "MIT",
+    "height": 1.73,
+    "weight": 70.2,
+    "gender": "Male",
+    "bmi": 23.46,
+    "verdict": "normal"
   }
 }
