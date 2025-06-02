@@ -2,7 +2,7 @@ from fastapi import FastAPI, Path, HTTPException, Query
 from fastapi.responses import JSONResponse
 import json
 from pydantic import BaseModel, computed_field, Field
-from typing import Annotated
+from typing import Annotated, Optional
 
 app = FastAPI()
 
@@ -40,6 +40,15 @@ class Student(BaseModel):
             return "overweight"
         else:
             return "normal"
+
+class StudentUpdate(BaseModel):
+    name: Annotated[Optional[str], Field(default=None)]
+    age: Annotated[Optional[int], Field(default=None)]
+    major: Annotated[Optional[str], Field(default=None)]
+    university: Annotated[Optional[str], Field(default=None)]
+    height: Annotated[Optional[float], Field(default=None)]
+    weight: Annotated[Optional[float], Field(default=None)]
+    gender: Annotated[Optional[str], Field(default=None)]
 
 @app.get('/')
 def root():
@@ -91,5 +100,26 @@ def create_student(student: Student):
     data[student.id] = student.model_dump(exclude="id")
 
     save_data(data)
-
     return JSONResponse(status_code=201, content={'message':'student created successfully'})
+
+@app.put('/update/{id}')
+def update_student(id: str, studentupdate: StudentUpdate):
+    data = load_data()
+
+    if id not in data:
+        raise HTTPException(status_code=404, detail="Student not found!")
+
+    update_data = studentupdate.model_dump(exclude_unset=True) # only dumps the given fields
+    
+    for key,value in update_data.items():
+        data[id][key] = value
+
+    final_data = data[id]
+    final_data["id"] = id
+    final_data = Student(**final_data)
+
+    data[id] = final_data.model_dump(exclude={"id"})
+
+    save_data(data)
+
+    return JSONResponse(status_code=201, content={'message':'Student information succefully updated'})

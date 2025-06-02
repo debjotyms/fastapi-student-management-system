@@ -5,7 +5,7 @@
     "major": "Computer Science and Engineering",
     "university": "Bangladesh University of Engineering and Technology",
     "height": "1.73",
-    "weight": "68 kg",
+    "weight": "68",
     "gender": "Male",
     "bmi": 22.86,
     "verdict": "Normal"
@@ -16,7 +16,7 @@
     "major": "Economics",
     "university": "University of Dhaka",
     "height": "1.68",
-    "weight": "45 kg",
+    "weight": "45",
     "gender": "Female",
     "bmi": 17.95,
     "verdict": "Underweight"
@@ -27,7 +27,7 @@
     "major": "Electrical and Electronic Engineering",
     "university": "Khulna University of Engineering & Technology",
     "height": "1.73",
-    "weight": "85 kg",
+    "weight": "85",
     "gender": "Male",
     "bmi": 28.57,
     "verdict": "Overweight"
@@ -38,7 +38,7 @@
     "major": "Pharmacy",
     "university": "University of Rajshahi",
     "height": "1.60",
-    "weight": "52 kg",
+    "weight": "52",
     "gender": "Female",
     "bmi": 20.33,
     "verdict": "Normal"
@@ -49,7 +49,7 @@
     "major": "Business Administration",
     "university": "Jahangirnagar University",
     "height": "1.78",
-    "weight": "95 kg",
+    "weight": "95",
     "gender": "Male",
     "bmi": 30.12,
     "verdict": "Obese"
@@ -60,7 +60,7 @@
     "major": "Environmental Science",
     "university": "Jagannath University",
     "height": "1.70",
-    "weight": "44 kg",
+    "weight": "44",
     "gender": "Female",
     "bmi": 17.31,
     "verdict": "Underweight"
@@ -70,21 +70,21 @@
     "age": 20,
     "major": "Computer Science and Engineering",
     "university": "BRAC University",
-    "height": "1.63",
-    "weight": "78 kg",
+    "height": 1.63,
+    "weight": 78.0,
     "gender": "Female",
-    "bmi": 29.61,
-    "verdict": "Overweight"
+    "bmi": 29.36,
+    "verdict": "overweight"
   },
   "S008": {
-    "name": "Debjoty Mitra",
-    "age": 24,
+    "name": "Sourav Mitra",
+    "age": 23,
     "major": "Computer Science",
     "university": "MIT",
-    "height": 1.73,
-    "weight": 70.2,
+    "height": 1.63,
+    "weight": 78.0,
     "gender": "Male",
-    "bmi": 23.46,
-    "verdict": "normal"
+    "bmi": 29.36,
+    "verdict": "overweight"
   }
 }
